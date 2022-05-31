@@ -1,0 +1,12 @@
+[
+  {
+    _id: 'Male',
+    'average weight': 70.00814859681002,
+    'average height': 166.73575812638805
+  },
+  {
+    _id: 'Female',
+    'average weight': 70.11331573604062,
+    'average height': 166.81260913705583
+  }
+]

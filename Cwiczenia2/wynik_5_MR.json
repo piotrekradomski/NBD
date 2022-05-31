@@ -1,0 +1,571 @@
+DeprecationWarning: Collection.mapReduce() is deprecated. Use an aggregation instead.
+See https://docs.mongodb.com/manual/core/map-reduce for details.
+{
+  results: [
+    {
+      _id: 'SEK',
+      value: {
+        currency: 'SEK',
+        totalBalance: 70840.19,
+        averageBalance: 5060.013571428572
+      }
+    },
+    {
+      _id: 'VND',
+      value: {
+        currency: 'VND',
+        totalBalance: 36160.259999999995,
+        averageBalance: 4520.032499999999
+      }
+    },
+    {
+      _id: 'BWP',
+      value: {
+        currency: 'BWP',
+        totalBalance: 4076.29,
+        averageBalance: 4076.29
+      }
+    },
+    {
+      _id: 'CZK',
+      value: {
+        currency: 'CZK',
+        totalBalance: 37156.420000000006,
+        averageBalance: 4644.552500000001
+      }
+    },
+    {
+      _id: 'EUR',
+      value: {
+        currency: 'EUR',
+        totalBalance: 245091.46999999994,
+        averageBalance: 4901.829399999999
+      }
+    },
+    {
+      _id: 'ETB',
+      value: {
+        currency: 'ETB',
+        totalBalance: 5436.11,
+        averageBalance: 5436.11
+      }
+    },
+    {
+      _id: 'BGN',
+      value: {
+        currency: 'BGN',
+        totalBalance: 21200.88,
+        averageBalance: 5300.22
+      }
+    },
+    {
+      _id: 'CDF',
+      value: {
+        currency: 'CDF',
+        totalBalance: 12228.8,
+        averageBalance: 6114.4
+      }
+    },
+    {
+      _id: 'AMD',
+      value: {
+        currency: 'AMD',
+        totalBalance: 24609.33,
+        averageBalance: 4921.866
+      }
+    },
+    {
+      _id: 'AFN',
+      value: {
+        currency: 'AFN',
+        totalBalance: 16755.49,
+        averageBalance: 5585.163333333334
+      }
+    },
+    {
+      _id: 'TZS',
+      value: {
+        currency: 'TZS',
+        totalBalance: 7052.370000000001,
+        averageBalance: 3526.1850000000004
+      }
+    },
+    {
+      _id: 'IDR',
+      value: {
+        currency: 'IDR',
+        totalBalance: 323922.59,
+        averageBalance: 4907.918030303031
+      }
+    },
+    {
+      _id: 'SRD',
+      value: {
+        currency: 'SRD',
+        totalBalance: 5286.68,
+        averageBalance: 5286.68
+      }
+    },
+    {
+      _id: 'NOK',
+      value: {
+        currency: 'NOK',
+        totalBalance: 4773.66,
+        averageBalance: 4773.66
+      }
+    },
+    {
+      _id: 'MYR',
+      value: {
+        currency: 'MYR',
+        totalBalance: 4781.12,
+        averageBalance: 4781.12
+      }
+    },
+    {
+      _id: 'PLN',
+      value: {
+        currency: 'PLN',
+        totalBalance: 90770.77999999998,
+        averageBalance: 5042.82111111111
+      }
+    },
+    {
+      _id: 'VUV',
+      value: {
+        currency: 'VUV',
+        totalBalance: 6418.27,
+        averageBalance: 6418.27
+      }
+    },
+    {
+      _id: 'MAD',
+      value: {
+        currency: 'MAD',
+        totalBalance: 3818.85,
+        averageBalance: 3818.85
+      }
+    },
+    {
+      _id: 'BRL',
+      value: {
+        currency: 'BRL',
+        totalBalance: 49632.020000000004,
+        averageBalance: 4512.001818181819
+      }
+    },
+    {
+      _id: 'NGN',
+      value: {
+        currency: 'NGN',
+        totalBalance: 24946.23,
+        averageBalance: 4157.705
+      }
+    },
+    {
+      _id: 'MKD',
+      value: {
+        currency: 'MKD',
+        totalBalance: 3835.05,
+        averageBalance: 3835.05
+      }
+    },
+    {
+      _id: 'ARS',
+      value: { currency: 'ARS', totalBalance: 23242, averageBalance: 4648.4 }
+    },
+    {
+      _id: 'COP',
+      value: {
+        currency: 'COP',
+        totalBalance: 19746.73,
+        averageBalance: 4936.6825
+      }
+    },
+    {
+      _id: 'XPF',
+      value: {
+        currency: 'XPF',
+        totalBalance: 4759.07,
+        averageBalance: 4759.07
+      }
+    },
+    {
+      _id: 'PYG',
+      value: {
+        currency: 'PYG',
+        totalBalance: 4874.69,
+        averageBalance: 4874.69
+      }
+    },
+    {
+      _id: 'TJS',
+      value: {
+        currency: 'TJS',
+        totalBalance: 4087.71,
+        averageBalance: 4087.71
+      }
+    },
+    {
+      _id: 'RUB',
+      value: {
+        currency: 'RUB',
+        totalBalance: 119749.15,
+        averageBalance: 4989.547916666666
+      }
+    },
+    {
+      _id: 'BYR',
+      value: {
+        currency: 'BYR',
+        totalBalance: 5095.79,
+        averageBalance: 5095.79
+      }
+    },
+    {
+      _id: 'IQD',
+      value: {
+        currency: 'IQD',
+        totalBalance: 4269.39,
+        averageBalance: 4269.39
+      }
+    },
+    {
+      _id: 'CUP',
+      value: {
+        currency: 'CUP',
+        totalBalance: 15017.34,
+        averageBalance: 5005.78
+      }
+    },
+    {
+      _id: 'UZS',
+      value: {
+        currency: 'UZS',
+        totalBalance: 3573.03,
+        averageBalance: 3573.03
+      }
+    },
+    {
+      _id: 'XOF',
+      value: {
+        currency: 'XOF',
+        totalBalance: 17882.05,
+        averageBalance: 5960.683333333333
+      }
+    },
+    {
+      _id: 'ALL',
+      value: {
+        currency: 'ALL',
+        totalBalance: 3325.48,
+        averageBalance: 3325.48
+      }
+    },
+    {
+      _id: 'USD',
+      value: {
+        currency: 'USD',
+        totalBalance: 74680.98000000001,
+        averageBalance: 4978.732000000001
+      }
+    },
+    {
+      _id: 'KYD',
+      value: {
+        currency: 'KYD',
+        totalBalance: 3760.89,
+        averageBalance: 3760.89
+      }
+    },
+    {
+      _id: 'GTQ',
+      value: { currency: 'GTQ', totalBalance: 5806.3, averageBalance: 5806.3 }
+    },
+    {
+      _id: 'CLP',
+      value: {
+        currency: 'CLP',
+        totalBalance: 21008.95,
+        averageBalance: 5252.2375
+      }
+    },
+    {
+      _id: 'UAH',
+      value: {
+        currency: 'UAH',
+        totalBalance: 40471.840000000004,
+        averageBalance: 5058.9800000000005
+      }
+    },
+    {
+      _id: 'YER',
+      value: {
+        currency: 'YER',
+        totalBalance: 13712.5,
+        averageBalance: 4570.833333333333
+      }
+    },
+    {
+      _id: 'ZAR',
+      value: {
+        currency: 'ZAR',
+        totalBalance: 11790.92,
+        averageBalance: 3930.306666666667
+      }
+    },
+    {
+      _id: 'RSD',
+      value: {
+        currency: 'RSD',
+        totalBalance: 4276.56,
+        averageBalance: 4276.56
+      }
+    },
+    {
+      _id: 'NZD',
+      value: {
+        currency: 'NZD',
+        totalBalance: 5328.46,
+        averageBalance: 5328.46
+      }
+    },
+    {
+      _id: 'MGA',
+      value: {
+        currency: 'MGA',
+        totalBalance: 14560.99,
+        averageBalance: 4853.663333333333
+      }
+    },
+    {
+      _id: 'NPR',
+      value: {
+        currency: 'NPR',
+        totalBalance: 5792.26,
+        averageBalance: 5792.26
+      }
+    },
+    {
+      _id: 'VEF',
+      value: {
+        currency: 'VEF',
+        totalBalance: 8333.28,
+        averageBalance: 4166.64
+      }
+    },
+    {
+      _id: 'GBP',
+      value: {
+        currency: 'GBP',
+        totalBalance: 6149.19,
+        averageBalance: 6149.19
+      }
+    },
+    {
+      _id: 'CAD',
+      value: {
+        currency: 'CAD',
+        totalBalance: 58375.6,
+        averageBalance: 5306.872727272727
+      }
+    },
+    {
+      _id: 'CNY',
+      value: {
+        currency: 'CNY',
+        totalBalance: 470700.38000000006,
+        averageBalance: 4954.740842105264
+      }
+    },
+    {
+      _id: 'PHP',
+      value: {
+        currency: 'PHP',
+        totalBalance: 118606.27999999998,
+        averageBalance: 4941.928333333332
+      }
+    },
+    {
+      _id: 'XAF',
+      value: {
+        currency: 'XAF',
+        totalBalance: 14094.660000000002,
+        averageBalance: 4698.22
+      }
+    },
+    {
+      _id: 'ILS',
+      value: {
+        currency: 'ILS',
+        totalBalance: 16295.489999999998,
+        averageBalance: 5431.829999999999
+      }
+    },
+    {
+      _id: 'DOP',
+      value: {
+        currency: 'DOP',
+        totalBalance: 20674.739999999998,
+        averageBalance: 5168.6849999999995
+      }
+    },
+    {
+      _id: 'BOB',
+      value: { currency: 'BOB', totalBalance: 5263.3, averageBalance: 5263.3 }
+    },
+    {
+      _id: 'HRK',
+      value: {
+        currency: 'HRK',
+        totalBalance: 24354.82,
+        averageBalance: 4870.964
+      }
+    },
+    {
+      _id: 'MXN',
+      value: {
+        currency: 'MXN',
+        totalBalance: 50228.99999999999,
+        averageBalance: 5022.9
+      }
+    },
+    {
+      _id: 'PEN',
+      value: {
+        currency: 'PEN',
+        totalBalance: 18644.94,
+        averageBalance: 4661.235
+      }
+    },
+    {
+      _id: 'HNL',
+      value: {
+        currency: 'HNL',
+        totalBalance: 16514.59,
+        averageBalance: 5504.863333333334
+      }
+    },
+    {
+      _id: 'LYD',
+      value: {
+        currency: 'LYD',
+        totalBalance: 8764.99,
+        averageBalance: 4382.495
+      }
+    },
+    {
+      _id: 'ISK',
+      value: {
+        currency: 'ISK',
+        totalBalance: 4316.41,
+        averageBalance: 4316.41
+      }
+    },
+    {
+      _id: 'JPY',
+      value: {
+        currency: 'JPY',
+        totalBalance: 60944.74,
+        averageBalance: 5078.7283333333335
+      }
+    },
+    {
+      _id: 'NIO',
+      value: {
+        currency: 'NIO',
+        totalBalance: 9971.28,
+        averageBalance: 4985.64
+      }
+    },
+    {
+      _id: 'ZMW',
+      value: {
+        currency: 'ZMW',
+        totalBalance: 5569.56,
+        averageBalance: 5569.56
+      }
+    },
+    {
+      _id: 'IRR',
+      value: {
+        currency: 'IRR',
+        totalBalance: 26504.24,
+        averageBalance: 4417.373333333334
+      }
+    },
+    {
+      _id: 'KZT',
+      value: {
+        currency: 'KZT',
+        totalBalance: 3788.95,
+        averageBalance: 3788.95
+      }
+    },
+    {
+      _id: 'MNT',
+      value: {
+        currency: 'MNT',
+        totalBalance: 21715.61,
+        averageBalance: 5428.9025
+      }
+    },
+    {
+      _id: 'EGP',
+      value: { currency: 'EGP', totalBalance: 5579.3, averageBalance: 5579.3 }
+    },
+    {
+      _id: 'KRW',
+      value: {
+        currency: 'KRW',
+        totalBalance: 13379.82,
+        averageBalance: 6689.91
+      }
+    },
+    {
+      _id: 'MMK',
+      value: {
+        currency: 'MMK',
+        totalBalance: 4629.42,
+        averageBalance: 4629.42
+      }
+    },
+    {
+      _id: 'PKR',
+      value: { currency: 'PKR', totalBalance: 18938, averageBalance: 4734.5 }
+    },
+    {
+      _id: 'THB',
+      value: {
+        currency: 'THB',
+        totalBalance: 23021.96,
+        averageBalance: 4604.392
+      }
+    },
+    {
+      _id: 'MWK',
+      value: {
+        currency: 'MWK',
+        totalBalance: 3574.42,
+        averageBalance: 3574.42
+      }
+    },
+    {
+      _id: 'RWF',
+      value: {
+        currency: 'RWF',
+        totalBalance: 4632.88,
+        averageBalance: 4632.88
+      }
+    },
+    {
+      _id: 'ZWL',
+      value: {
+        currency: 'ZWL',
+        totalBalance: 5792.17,
+        averageBalance: 5792.17
+      }
+    }
+  ],
+  ok: 1
+}

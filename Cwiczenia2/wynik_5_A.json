@@ -1,0 +1,155 @@
+[
+  {
+    _id: 'SEK',
+    'total amount': 70840.19,
+    'average amount': 5060.013571428572
+  },
+  { _id: 'VND', 'total amount': 36160.26, 'average amount': 4520.0325 },
+  { _id: 'BWP', 'total amount': 4076.29, 'average amount': 4076.29 },
+  { _id: 'CZK', 'total amount': 37156.42, 'average amount': 4644.5525 },
+  { _id: 'ETB', 'total amount': 5436.11, 'average amount': 5436.11 },
+  {
+    _id: 'EUR',
+    'total amount': 245091.47,
+    'average amount': 4901.8294
+  },
+  { _id: 'BGN', 'total amount': 21200.88, 'average amount': 5300.22 },
+  { _id: 'CDF', 'total amount': 12228.8, 'average amount': 6114.4 },
+  { _id: 'AMD', 'total amount': 24609.33, 'average amount': 4921.866 },
+  {
+    _id: 'AFN',
+    'total amount': 16755.49,
+    'average amount': 5585.163333333334
+  },
+  {
+    _id: 'TZS',
+    'total amount': 7052.370000000001,
+    'average amount': 3526.1850000000004
+  },
+  {
+    _id: 'IDR',
+    'total amount': 323922.59,
+    'average amount': 4907.918030303031
+  },
+  { _id: 'SRD', 'total amount': 5286.68, 'average amount': 5286.68 },
+  { _id: 'NOK', 'total amount': 4773.66, 'average amount': 4773.66 },
+  { _id: 'MYR', 'total amount': 4781.12, 'average amount': 4781.12 },
+  {
+    _id: 'PLN',
+    'total amount': 90770.78,
+    'average amount': 5042.821111111111
+  },
+  { _id: 'VUV', 'total amount': 6418.27, 'average amount': 6418.27 },
+  { _id: 'MAD', 'total amount': 3818.85, 'average amount': 3818.85 },
+  {
+    _id: 'BRL',
+    'total amount': 49632.020000000004,
+    'average amount': 4512.001818181819
+  },
+  { _id: 'NGN', 'total amount': 24946.23, 'average amount': 4157.705 },
+  { _id: 'MKD', 'total amount': 3835.05, 'average amount': 3835.05 },
+  { _id: 'ARS', 'total amount': 23242, 'average amount': 4648.4 },
+  { _id: 'COP', 'total amount': 19746.73, 'average amount': 4936.6825 },
+  { _id: 'XPF', 'total amount': 4759.07, 'average amount': 4759.07 },
+  { _id: 'PYG', 'total amount': 4874.69, 'average amount': 4874.69 },
+  { _id: 'TJS', 'total amount': 4087.71, 'average amount': 4087.71 },
+  {
+    _id: 'RUB',
+    'total amount': 119749.15,
+    'average amount': 4989.547916666666
+  },
+  { _id: 'BYR', 'total amount': 5095.79, 'average amount': 5095.79 },
+  { _id: 'IQD', 'total amount': 4269.39, 'average amount': 4269.39 },
+  { _id: 'CUP', 'total amount': 15017.34, 'average amount': 5005.78 },
+  { _id: 'UZS', 'total amount': 3573.03, 'average amount': 3573.03 },
+  {
+    _id: 'XOF',
+    'total amount': 17882.05,
+    'average amount': 5960.683333333333
+  },
+  { _id: 'ALL', 'total amount': 3325.48, 'average amount': 3325.48 },
+  { _id: 'USD', 'total amount': 74680.98, 'average amount': 4978.732 },
+  { _id: 'GTQ', 'total amount': 5806.3, 'average amount': 5806.3 },
+  { _id: 'KYD', 'total amount': 3760.89, 'average amount': 3760.89 },
+  {
+    _id: 'UAH',
+    'total amount': 40471.840000000004,
+    'average amount': 5058.9800000000005
+  },
+  { _id: 'CLP', 'total amount': 21008.95, 'average amount': 5252.2375 },
+  {
+    _id: 'YER',
+    'total amount': 13712.5,
+    'average amount': 4570.833333333333
+  },
+  {
+    _id: 'ZAR',
+    'total amount': 11790.92,
+    'average amount': 3930.306666666667
+  },
+  { _id: 'RSD', 'total amount': 4276.56, 'average amount': 4276.56 },
+  { _id: 'NZD', 'total amount': 5328.46, 'average amount': 5328.46 },
+  {
+    _id: 'MGA',
+    'total amount': 14560.99,
+    'average amount': 4853.663333333333
+  },
+  { _id: 'NPR', 'total amount': 5792.26, 'average amount': 5792.26 },
+  { _id: 'VEF', 'total amount': 8333.28, 'average amount': 4166.64 },
+  { _id: 'GBP', 'total amount': 6149.19, 'average amount': 6149.19 },
+  {
+    _id: 'CAD',
+    'total amount': 58375.6,
+    'average amount': 5306.872727272727
+  },
+  {
+    _id: 'CNY',
+    'total amount': 470700.38,
+    'average amount': 4954.740842105263
+  },
+  {
+    _id: 'PHP',
+    'total amount': 118606.28,
+    'average amount': 4941.928333333333
+  },
+  { _id: 'XAF', 'total amount': 14094.66, 'average amount': 4698.22 },
+  { _id: 'ILS', 'total amount': 16295.49, 'average amount': 5431.83 },
+  {
+    _id: 'DOP',
+    'total amount': 20674.739999999998,
+    'average amount': 5168.6849999999995
+  },
+  { _id: 'BOB', 'total amount': 5263.3, 'average amount': 5263.3 },
+  { _id: 'HRK', 'total amount': 24354.82, 'average amount': 4870.964 },
+  { _id: 'MXN', 'total amount': 50229, 'average amount': 5022.9 },
+  { _id: 'PEN', 'total amount': 18644.94, 'average amount': 4661.235 },
+  {
+    _id: 'HNL',
+    'total amount': 16514.59,
+    'average amount': 5504.863333333334
+  },
+  { _id: 'LYD', 'total amount': 8764.99, 'average amount': 4382.495 },
+  { _id: 'ISK', 'total amount': 4316.41, 'average amount': 4316.41 },
+  {
+    _id: 'JPY',
+    'total amount': 60944.74,
+    'average amount': 5078.7283333333335
+  },
+  { _id: 'NIO', 'total amount': 9971.28, 'average amount': 4985.64 },
+  { _id: 'ZMW', 'total amount': 5569.56, 'average amount': 5569.56 },
+  {
+    _id: 'IRR',
+    'total amount': 26504.239999999998,
+    'average amount': 4417.373333333333
+  },
+  { _id: 'KZT', 'total amount': 3788.95, 'average amount': 3788.95 },
+  { _id: 'MNT', 'total amount': 21715.61, 'average amount': 5428.9025 },
+  { _id: 'EGP', 'total amount': 5579.3, 'average amount': 5579.3 },
+  { _id: 'KRW', 'total amount': 13379.82, 'average amount': 6689.91 },
+  { _id: 'MMK', 'total amount': 4629.42, 'average amount': 4629.42 },
+  { _id: 'MWK', 'total amount': 3574.42, 'average amount': 3574.42 },
+  { _id: 'PKR', 'total amount': 18938, 'average amount': 4734.5 },
+  { _id: 'THB', 'total amount': 23021.96, 'average amount': 4604.392 },
+  { _id: 'RWF', 'total amount': 4632.88, 'average amount': 4632.88 },
+  { _id: 'ZWL', 'total amount': 5792.17, 'average amount': 5792.17 }
+]
