@@ -45,3 +45,5 @@ CREATE
 	(ChrisE)-[:ACTED_IN {roles:['Captain America']}]->(CaptainAmerica),
 	(SamuelL)-[:ACTED_IN {roles:['Nick Fury']}]->(CaptainAmerica),
 	(HayleyA)-[:ACTED_IN {roles:['Peggy Carter']}]->(CaptainAmerica)
+	
+MATCH (captainAmerica { title: 'Captain America: The First Avenger' })<-[]-(person) return captainAmerica, person
