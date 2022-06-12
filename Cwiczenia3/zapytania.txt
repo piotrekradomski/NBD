@@ -1,0 +1,47 @@
+1.
+MATCH (allMovies:Movie) RETURN allMovies
+
+2.
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies) RETURN hugo,hugoWeavingMovies
+
+3.
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies)<-[:DIRECTED]-(directors) RETURN hugoWeavingMovies, directors
+
+4.
+MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(hugoWeavingMovies)<-[:ACTED_IN]-(coActors) RETURN hugoWeavingMovies,coActors
+
+5.
+MATCH (matrix:Movie)<-[:ACTED_IN]-(person) 
+WHERE (person)-[:ACTED_IN]->(:Movie { title: "The Matrix" })
+RETURN matrix, person
+
+6.
+MATCH (person:Person)-[:ACTED_IN]->(movies) 
+WITH person, count(movies) as nrMovies 
+WHERE nrMovies > 0 
+RETURN person, nrMovies
+
+7.
+MATCH (person:Person)-[:WROTE]->(movies) 
+WHERE (person:Person)-[:DIRECTED]->(movies) 
+RETURN person, movies
+
+8.
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies) <-[:ACTED_IN]-(keanu:Person {name: "Keanu Reeves"}) RETURN hugo,movies,keanu
+
+9.
+CREATE (CaptainAmerica:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'Super-Soldier'})
+CREATE (JoeJ:Person {name:'Joe Johnston', born:1950})
+CREATE (ChristopherM:Person {name:'Christopher Markus', born:1970})
+CREATE (StephenM:Person {name:'Stephen McFeely', born:1970})
+CREATE (ChrisE:Person {name:'Chris Evans', born:1981})
+CREATE (SamuelL:Person {name:'Samuel L. Jackson', born:1948})
+CREATE (HayleyA:Person {name:'Hayley Atwell', born:1982})
+
+CREATE
+	(JoeJ)-[:DIRECTED]->(CaptainAmerica),
+	(ChristopherM)-[:WROTE]->(CaptainAmerica),
+	(StephenM)-[:WROTE]->(CaptainAmerica),
+	(ChrisE)-[:ACTED_IN {roles:['Captain America']}]->(CaptainAmerica),
+	(SamuelL)-[:ACTED_IN {roles:['Nick Fury']}]->(CaptainAmerica),
+	(HayleyA)-[:ACTED_IN {roles:['Peggy Carter']}]->(CaptainAmerica)
