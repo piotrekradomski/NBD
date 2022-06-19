@@ -1,0 +1,33 @@
+1.
+curl -i -XPUT -H "Content-Type: application/json" -d "{"brand": "Opel", "model": "Astra", "year": 1999, "needsUpgrade": true}" http://localhost:8098/buckets/s24212/keys/astra
+curl -i -XPUT -H "Content-Type: application/json" -d "{"brand": "Bmw", "model": "M3", "year": 2017, "needsUpgrade": false}" http://localhost:8098/buckets/s24212/keys/m3
+curl -i -XPUT -H "Content-Type: application/json" -d "{"brand": "Opel", "model": "Corsa", "year": 2007, "needsUpgrade": true}" http://localhost:8098/buckets/s24212/keys/corsa
+curl -i -XPUT -H "Content-Type: application/json" -d "{"brand": "Audi", "model": "R8", "year": 2016, "needsUpgrade": false}" http://localhost:8098/buckets/s24212/keys/r8
+curl -i -XPUT -H "Content-Type: application/json" -d "{"brand": "Honda", "model": "Civic", "year": 2005, "needsUpgrade": true}" http://localhost:8098/buckets/s24212/keys/civic
+
+2.
+curl -i -XGET  http://localhost:8098/buckets/s24212/keys/r8
+
+3.
+curl -i -XPUT -H "Content-Type: application/json" -d "{"brand": "Honda", "model": "Civic", "year": 2005, "needsUpgrade": true, "horsePower": 160}" http://localhost:8098/buckets/s24212/keys/civic
+
+4.
+curl -i -XPUT -H "Content-Type: application/json" -d "{"brand": "Opel", "model": "Corsa", "year": 2007}" http://localhost:8098/buckets/s24212/keys/corsa
+
+5.
+curl -i -XPUT -H "Content-Type: application/json" -d "{"brand": "Bmw", "model": "M3", "year": 2017, "needsUpgrade": true}" http://localhost:8098/buckets/s24212/keys/m3
+
+6.
+curl -i -XDELETE http://localhost:8098/buckets/s24212/keys/astra
+
+7.
+curl -i -XGET  http://localhost:8098/buckets/s24212/keys/blablabla
+
+8.
+curl -i -XPOST -H "Content-Type: application/json" -d "{"brand": "Bmw", "model": "M4", "year": 2019, "needsUpgrade": false}" http://localhost:8098/buckets/s24212/keys
+
+9.
+curl -i -XGET  http://localhost:8098/buckets/s24212/keys/1NfeJtXTe9bTukkAIODxzWs14oe
+
+10.
+curl -i -XDELETE http://localhost:8098/buckets/s24212/keys/1NfeJtXTe9bTukkAIODxzWs14oe

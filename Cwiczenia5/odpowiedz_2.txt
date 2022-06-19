@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvrdsjf0BEUpkzGNlmLpZ+Q5fFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s24212>; rel="up"
+Last-Modified: Sun, 19 Jun 2022 14:49:57 GMT
+ETag: "3VJ46Ta4gicTSjSstC6C4q"
+Date: Sun, 19 Jun 2022 14:51:14 GMT
+Content-Type: application/json
+Content-Length: 57
+
+{brand: Audi, model: R8, year: 2016, needsUpgrade: false}
